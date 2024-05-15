@@ -68,7 +68,11 @@ h2 {
     width: 100px;
     font-weight: bold;
  }
-
+footer {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
 
 
 
