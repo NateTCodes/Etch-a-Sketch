@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/css/style.css">
+        <title>Etch-a-Sketch</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Etch-a-Sketch</h1>
+            <h2>Enable black or white grid by clicking grid button</h2>
+        </div>
+        <div class="container">
+            <div class="layout">
+                <input type="color" id="colorChoice" value="#000000">
+                <button class="clear">Clear</button>
+                <button class="background">Black-Grid</button>
+                <button class="rainbow">Rainbow</button>
+            </div>
+            <div class="grid" id="gridContainer"></div>
+            <div class="slider">
+                <input type = "range" min="10" max="50" value="10" id="myRange">
+                <p id="sliderValue">Value: <span id="sliderVal">10</span></p>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+        <script src = "/js/main.js" defer></script>
+    </body>
+</html>
